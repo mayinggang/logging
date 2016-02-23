@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/ll_container_settings_item_me"
+        style="@style/SettingItemStyle"
+                  android:layout_marginTop="@dimen/activity_vertical_margin"
+                  android:background="@drawable/selector_settings_item"
+        android:orientation="horizontal"
+     >
+
+
+
+        <TextView android:id="@+id/tv_settings_item_me"
+            style="@style/SettingItemStyle"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的昵称"/>
+
+
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/tv_account_item_uploaded"
+              style="@style/SettingItemStyle"
+              android:background="@drawable/selector_settings_item"
+              android:drawableEnd="@drawable/setting_view_arrow"
+              android:drawableRight="@drawable/setting_view_arrow"
+              android:text="查看项目"/>
+
+    <TextView android:id="@+id/tv_account_item_nearby"
+              style="@style/SettingItemStyle"
+              android:layout_marginBottom="@dimen/activity_vertical_margin"
+              android:background="@drawable/selector_settings_item"
+              android:drawableEnd="@drawable/setting_view_arrow"
+              android:drawableRight="@drawable/setting_view_arrow"
+              android:text="添加项目"/>
+
+    <TextView android:id="@+id/tv_account_item_resources"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="个人设置"/>
+
+    <TextView android:id="@+id/tv_account_item_adstare"
+        style="@style/SettingItemStyle"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="修改密码"/>
+
+
+    <!--
+    <TextView android:id="@+id/tv_account_item_settings"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+              android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+              android:text="设置"/>
+              -->
+
+</LinearLayout>

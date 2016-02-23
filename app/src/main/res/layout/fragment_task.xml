@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:id="@+id/tv_task_item_log"
+        android:layout_marginTop="10dp"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="添加日志"/>
+    <TextView android:id="@+id/tv_task_item_show"
+        android:layout_marginTop="10dp"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="查看日志（一周内）"/>
+    <TextView android:id="@+id/tv_task_item_show_mon"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="查看日志（一月内）"/>
+    <TextView android:id="@+id/tv_task_item_show_yue"
+        style="@style/SettingItemStyle"
+        android:background="@drawable/selector_settings_item"
+        android:drawableEnd="@drawable/setting_view_arrow"
+        android:drawableRight="@drawable/setting_view_arrow"
+        android:text="查看日志（一年内）"/>
+
+</LinearLayout>
